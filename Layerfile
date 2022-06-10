@@ -22,5 +22,5 @@ EXPOSE WEBSITE http://localhost:8000
 # CYPRESS_RECORD_KEY is added in the "secrets" tab of the webapp.io dashboard
 SECRET ENV CYPRESS_RECORD_KEY
 
-SPLIT 10
+SPLIT 1
 RUN npx cypress run --record --key "$CYPRESS_RECORD_KEY" --parallel --ci-build-id $JOB_ID-$RETRY_INDEX
