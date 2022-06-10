@@ -1,4 +1,5 @@
 {
+  "projectId": "oyqzzf",
   "video": true,
   "baseUrl": "http://localhost:3000",
   "screenshotsFolder": "cypress/screenshots",
